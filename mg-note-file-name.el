@@ -1,5 +1,6 @@
-;;; mg-note-file-name.el --- Some stuff -*- lexical-binding: t -*-
+;;; mg-note-file-name.el --- Small library for dealing with note file names -*- lexical-binding: t -*-
 ;;; Commentary:
+;;;    See the function documentations.
 ;;; Code:
 
 (defun mg/note-file-name-tobase (d base digits)
