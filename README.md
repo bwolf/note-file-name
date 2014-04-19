@@ -19,8 +19,8 @@ Creating note file names:
 
 Converting natual numbers to base 26 positional numeral system:
 ```lisp
-(mapcar 'mg/note-file-name-toalphabet '(0 1 2 3 4 5 6 7 8 9))
-=> ("a" "b" "c" "d" "e" "f" "g" "h" "i" "j")
+(mapcar 'mg/note-file-name-toalphabet '(0 1 2 24 25 26 27 28 29 49 50 51))
+=> ("a" "b" "c" "y" "z" "ba" "bb" "bc" "bd" "bx" "by" "bz")
 ```
 
 EOF
