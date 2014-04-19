@@ -8,7 +8,7 @@ where the first letter `a` is the identity element under addition),
 followed by keywords (separated by spaces) and a file extension.
 
 ## Examples
-```emacs-lisp
+```lisp
 (setq dir (expand-file-name "~/Documents"))
 (find-file (mg/note-file-name-make-unique-file-name dir ".markdown" "foo" "bar"))
 => "/Users/someuser/Documents/20140419a foo bar.markdown"
