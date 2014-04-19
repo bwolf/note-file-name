@@ -8,6 +8,7 @@ where the first letter `a` is the identity element under addition),
 followed by keywords (separated by spaces) and a file extension.
 
 ## Examples
+Creating note file names:
 ```lisp
 (setq dir (expand-file-name "~/Documents"))
 (find-file (mg/note-file-name-make-unique-file-name dir ".markdown" "foo" "bar"))
@@ -15,3 +16,11 @@ followed by keywords (separated by spaces) and a file extension.
 (find-file (mg/note-file-name-make-unique-file-name dir ".markdown" "foo" "bar"))
 => "/Users/someuser/Documents/20140419b foo bar.markdown"
 ```
+
+Converting natual numbers to base 26 positional numeral system:
+```lisp
+(mapcar 'mg/note-file-name-toalphabet '(0 1 2 3 4 5 6 7 8 9))
+=> ("a" "b" "c" "d" "e" "f" "g" "h" "i" "j")
+```
+
+EOF

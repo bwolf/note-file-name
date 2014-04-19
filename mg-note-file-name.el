@@ -36,6 +36,6 @@ separated by spaces, followed by the extension."
     (concat directory "/" (mg/note-file-name-make-prefix n)
             " " (mapconcat 'identity keywords " ") extension)))
 
-(provide 'mg/note-file-name)
+(provide 'mg-note-file-name)
 
 ;;; mg-note-file-name.el ends here
